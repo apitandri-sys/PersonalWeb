@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<h2 class="mb-4">Contact Me</h2>
+
+<div class="row">
+    <div class="col-md-6">
+
+        <form action="https://formsubmit.co/apitandriwork@gmail.com" method="POST">
+
+            <!-- Anti spam -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="mb-3">
+                <label>Nama</label>
+                <input type="text" name="name" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label>Email</label>
+                <input type="email" name="email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label>Pesan</label>
+                <textarea name="message" class="form-control" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+
+    </div>
+
+    <div class="col-md-6">
+        <h5>Atau hubungi langsung:</h5>
+        <p>Email: apitandriwork@gmail.com</p>
+
+        <a href="https://wa.me/6285811333919" target="_blank" class="btn btn-success">
+            Chat WhatsApp
+        </a>
+    </div>
+</div>
